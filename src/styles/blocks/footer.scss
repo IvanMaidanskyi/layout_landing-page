@@ -2,8 +2,9 @@
   background-image: url('../images/footer-bg.png');
   background-size: cover;
   height: 200px;
+  z-index: 1;
+  bottom: 0;
   position: sticky;
-  z-index: -1;
 
   @include on-tablet {
     height: 480px;
